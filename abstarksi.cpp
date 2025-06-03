@@ -21,7 +21,7 @@ void display() {
 
 int main (){
     AbstarksiKlas ak;
-    ak.setXY("Yogyakarta ," "Kampus");
+    ak.SetXY("Yogyakarta ," "Kampus");
     ak.display();
 
     return 0;
