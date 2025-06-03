@@ -8,7 +8,7 @@ public:
 
 //method untuk mengisi nilai
 //private member
-void setXY(string a, string b) {
+void SetXY(string a, string b) {
     x = a;
     y = b;
 }
@@ -24,5 +24,5 @@ int main (){
     ak.setXY("Yogyakarta ," "Kampus");
     ak.display();
 
-    retur 0;
+    return 0;
 }
