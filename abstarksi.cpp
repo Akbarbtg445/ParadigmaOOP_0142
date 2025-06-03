@@ -8,7 +8,7 @@ public:
 
 //method untuk mengisi nilai
 //private member
-void SetXY(string a, string b) {
+void setXY(string a, string b) {
     x = a;
     y = b;
 }
@@ -19,9 +19,9 @@ void display() {
 }
 };
 
-int main (){
+int main () {
     AbstarksiKlas ak;
-    ak.SetXY("Yogyakarta ," "Kampus");
+    ak.setXY("Yogyakarta " ,"Kampus");
     ak.display();
 
     return 0;
