@@ -17,3 +17,13 @@ void printData(){
  cout << "kategori:" <<   Kategori << endl;
 }
 };
+
+int main (){
+    barang b;
+    kategori k;
+    b.nama = "HP";
+    b.jumlah = 2;
+    b.tanggalproduksi = "januari";
+    k.Elektronik;
+
+}
