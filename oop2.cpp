@@ -27,5 +27,6 @@ int main (){
     b.jumlah = 3;
     b.tanggalproduksi = "Februari";
     b.Kategori = "Nonelektronik";
+    
     b.printData();
 }
